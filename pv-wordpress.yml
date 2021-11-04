@@ -10,3 +10,4 @@ spec:
   storageClassName: wordpress
   hostPath:
     path: /data
+    type: Directory

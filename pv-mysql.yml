@@ -10,3 +10,4 @@ spec:
   storageClassName: mysql
   hostPath:
     path: /db-data
+    type: Directory
