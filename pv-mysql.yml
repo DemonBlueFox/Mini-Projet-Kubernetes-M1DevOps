@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata: 
+  name: pv-mysql
+spec:
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 1Gi
+  storageClassName: mysql
+  hostPath:
+    path: /db-data
